@@ -3,8 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "main": "dist/zu-ui.umd.js",
+  "main": "dist/zu-ui.cjs.js",
   "module": "dist/zu-ui.es.js",
+  "types": "dist/zu-ui.es.d.ts",
   "files": [
     "dist"
   ],

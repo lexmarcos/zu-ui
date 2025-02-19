@@ -15,6 +15,7 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, "src/index.ts"),
       name: "ZuUI",
+      formats: ['es', 'cjs', "umd"],
       fileName: (format) => `zu-ui.${format}.js`,
     },
     rollupOptions: {
