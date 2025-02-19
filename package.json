@@ -12,7 +12,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepare": "tsc -b && vite build"
   },
   "dependencies": {
     "@types/node": "^22.13.4"
